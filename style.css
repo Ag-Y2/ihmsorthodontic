@@ -439,17 +439,25 @@ img {
 }
 
 .footer-body {
-  margin-top: 16px;
+  margin-top: 18px;
   display: grid;
-  gap: 8px;
+  gap: 10px;
   color: #374151;
   font-size: 14px;
+  line-height: 1.7;
+}
+
+.footer-body p {
+  margin: 0;
 }
 
 .footer-copy {
-  margin: 16px 0 0;
+  margin: 20px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid #eef0f2;
   color: var(--text-muted);
   font-size: 13px;
+  line-height: 1.6;
 }
 
 .floating-cta {
